@@ -84,6 +84,8 @@
   <header>
     <h1>Empresas em Destaque</h1>
     <h2>DIVULGAMOS SUA EMPRESA — ENTRE EM CONTATO, PREÇO FIXO</h2>
+    <h2>27999860405 sms ou whatsapp <a href="https://wa.me/5527999860405" target="_blank">Fale conosco pelo WhatsApp</a>
+</h2>
     <p>Conheça as empresas que estão transformando o mercado!</p>
   </header>
 
