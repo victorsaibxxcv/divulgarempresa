@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresas em Destaque</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      margin: 10px 0 0;
+      font-size: 18px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin: 20px;
+      width: 300px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card h2 {
+      font-size: 20px;
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Empresas em Destaque</h1>
+    <h2>DIVULGAMOS SUA EMPRESA — ENTRE EM CONTATO, PREÇO FIXO</h2>
+    <p>Conheça as empresas que estão transformando o mercado!</p>
+  </header>
+
+  <div class="container" id="empresa-container">
+    <!-- Os cartões serão adicionados aqui via JavaScript -->
+  </div>
+
+  <footer>
+    <p>&copy; Divulgação de Empresas | Todos os direitos reservados</p>
+  </footer>
+<script src="empresa.js"></script>
+</body>
+</html>
