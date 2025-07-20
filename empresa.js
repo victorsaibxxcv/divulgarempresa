@@ -1,5 +1,5 @@
 
-  <script>
+  
     // Array com os anúncios das empresas
     const empresas = [
       {
@@ -38,4 +38,4 @@
       `;
       container.appendChild(card);
     });
-  </script>
+  
